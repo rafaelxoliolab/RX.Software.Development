@@ -16,6 +16,9 @@ Benefits
 - Unit testing allows developers to keep the maintainability high.
 - A better understanding of component functionality
 - Unit tests improve the code’s design by compelling developers to create testable components
+- have high quality―be fast, independent, repeatable, maintainable, non-flaky, and targeted.
+- be an integral part of the implementation process―not estimated or done separately from production coding.
+- be running continuously as a part of the Continuous Integration pipeline.
 
 The Test Pyramid
 <img width="466" height="246" alt="image" src="https://github.com/user-attachments/assets/eb8e9673-93cf-4802-9165-f020f81c0722" />
