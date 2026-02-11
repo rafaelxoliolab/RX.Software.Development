@@ -58,10 +58,17 @@ The testing process includes different types fos testing like:  functional, non-
 ## Software Testing Life Cycle (STLC)
 
 1. Requirement Analysis
-- Before testing can begin, your team must determine which requirements of the software application must be tested.
-- Involve clients in this discussion to be sure you understand their expectations as well.
+  - Before testing can begin, your team must determine which requirements of the software application must be tested.
+  - Involve clients in this discussion to be sure you understand their expectations as well.
 
-1. Test Planning
-- During this stage, the QA team must establish the testing plan, including priorities, goals, strategy, and resources.
+2. Test Planning
+  - During this stage, the QA team must establish the testing plan, including priorities, goals, strategy, and resources.
 
+3. Test Case Design/Development
+  - The QA team must design each test case or test script before testing begins.
 
+4. Test Environment Setup
+  - Either test engineers or the developers on your team must create a testing environment that simulates an actual user experience.
+
+5. Test Execution
+  - At this stage, test engineers run through each step of the established test plan and identify any errors, defects, or failures.
