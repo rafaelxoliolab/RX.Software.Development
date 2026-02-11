@@ -33,3 +33,13 @@ The testing process includes different types fos testing like:  functional, non-
 - White Box Testing
   - Also known as structural testing.
     White box testing is unit-level testing that ensures that the software application’s internal performance aligns with the product’s specifications.
+
+- Black box testing
+  - This is used to test the functionality of the application.
+  - This testing is focused only on the interface and does not test the internal structure of the software.
+ 
+- Grey box testing
+  - This a hybrid of white box and black box testing that requires engineers to have access to the database and design documentation
+ 
+
+## Errors, Failures, and Defects
