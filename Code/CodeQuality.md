@@ -1,4 +1,5 @@
 # Coding Standards
+By Rafael Xolio
 
 ## Benefits
 - Enhance code clarity
