@@ -43,3 +43,25 @@ The testing process includes different types fos testing like:  functional, non-
  
 
 ## Errors, Failures, and Defects
+
+- Errors
+  - Errors are mistakes made by a developer while writing the software code, including any possible misunderstandings of the requirements or intended functionality.
+ 
+- Failures
+  - A failure means that the application code is not functioning or is unable to function as the developers or clients intended.
+  - In this case, the developer may not have made a mistake, but the code must be reconfigured to meet the requirements of the product.
+
+- Defects
+  - A defect, also known as a bug or fault, happens when the code does not produce an expected result.
+  - A defect could result in an interruption of the user experience.
+ 
+## Software Testing Life Cycle (STLC)
+
+1. Requirement Analysis
+- Before testing can begin, your team must determine which requirements of the software application must be tested.
+- Involve clients in this discussion to be sure you understand their expectations as well.
+
+1. Test Planning
+- During this stage, the QA team must establish the testing plan, including priorities, goals, strategy, and resources.
+
+
