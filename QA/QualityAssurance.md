@@ -7,6 +7,8 @@
 
 ## Types of Testing
 
-- The testing process includes different types fos testing like:  functional, non-functional, manual, and automated testing
+The testing process includes different types fos testing like:  functional, non-functional, manual, and automated testing
 
-
+- **Manual Testing **
+  - This testing type requires the developer or test engineer to create test environments to detect any bugs or errors before a release.
+  - This process is done without the use of any tools or automation, so expertise is needed.
