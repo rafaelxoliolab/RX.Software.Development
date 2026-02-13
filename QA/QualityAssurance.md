@@ -124,10 +124,63 @@ Which test design and execution approaches the team will use for a particular te
 
 ## Reviewing Test Cases
 
-### self-review
+### Self-Review
 The test engineer who wrote the test case should perform a self-review. 
 If you perform a self-review, verify that all requirements are covered by comparing the test case to the:
 
 - Software Requirement Specification (SRS), which describes the software’s purpose, how it is supposed to function, and how it will fulfill the needs of the business and its users.
 - Functional Requirements Document (FRD), which is similar to a contract stating the functional requirements needed for software to meet agreed-upon capabilities.
 
+### Peer Review
+- A different test engineer than the one who wrote the test case should perform a peer review.
+- The peer should have theoretical knowledge and practical skills in test case writing and be familiar with the system being tested.
+- This type of review is also known as a Maker and Checker review.
+
+### Supervisor Review
+- The team lead, manager, or business analyst (in a supervisory role compared to the test case author) can perform a supervisor review.
+- The person completing this review should have extensive knowledge of the requirements and system being tested.
+
+## Test Coverage
+
+### Requirement Test Coverage Report
+The Requirement Test Coverage Report allows your team to:
+
+identify the status of the testing process, including passed and failed test cases
+track which requirements are covered by specific versions of a test case template
+track the requirements that still need to be covered by tests
+understand the extent to which the code written for an application has been tested
+
+### Requirement Traceability Matrix
+A Requirement Traceability Matrix is a single document that:
+
+is delivered at the conclusion of the software development life cycle
+captures all requirements and maps them to test cases
+aims to validate that no functionality is unchecked during software testing
+is also used as a resource when creating a Requirement Test Coverage Report
+
+## Regression Testing
+
+- Regression testing is a technique in which some test cases previously developed to test specific functions are conducted to determine whether code changes impact the software’s existing functionality. 
+- This testing process ensures that any changes made to the system will not move to production if any previously developed functionality is broken.
+
+### Categorize Test Cases
+To create a regression test suite, first categorize the test cases by whether they can be used in further regression cycles (reusable) or not (obsolete).
+
+###  Prioritize Test Cases
+Next, prioritize the test cases depending on business impact, focusing on critical and frequently used functionalities. Selecting test cases based on priority will reduce the regression test suite’s size and execution time.
+
+### Select Test Cases
+For effective regression testing, be sure to include test cases that cover:
+
+Critical and/or highly visible functionalities
+Areas with frequent defects
+Core features of the product
+Frequently or recently changed functionalities
+
+## Test Results Summary
+The number of test cases executed
+The number of test cases that passed
+The number of test cases that failed
+Pass percentage
+Fail percentage
+Comments from testers about the test
