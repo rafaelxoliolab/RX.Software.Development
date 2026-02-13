@@ -184,3 +184,13 @@ The number of test cases that failed
 Pass percentage
 Fail percentage
 Comments from testers about the test
+
+
+## Recommended Test Case Management Tools
+There are many different test case management tools available, but these are the most common and recommended tools:
+
+[Zephyr for Jira](https://marketplace.atlassian.com/apps/1213259/zephyr-test-management-and-automation-for-jira)
+Rally
+Azure DevOps
+TestRail
+Jama
