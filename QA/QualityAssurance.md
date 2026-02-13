@@ -121,3 +121,13 @@ Which test design and execution approaches the team will use for a particular te
 
 ### Test Case
 - A test case comprises the steps used to verify that a specific piece of functionality works correctly and meets the project requirements. 
+
+## Reviewing Test Cases
+
+### self-review
+The test engineer who wrote the test case should perform a self-review. 
+If you perform a self-review, verify that all requirements are covered by comparing the test case to the:
+
+- Software Requirement Specification (SRS), which describes the software’s purpose, how it is supposed to function, and how it will fulfill the needs of the business and its users.
+- Functional Requirements Document (FRD), which is similar to a contract stating the functional requirements needed for software to meet agreed-upon capabilities.
+
