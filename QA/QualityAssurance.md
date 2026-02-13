@@ -72,3 +72,52 @@ The testing process includes different types fos testing like:  functional, non-
 
 5. Test Execution
   - At this stage, test engineers run through each step of the established test plan and identify any errors, defects, or failures.
+
+6. Test Closure
+  - Once the test execution is completed, the test is closed, and any errors, defects, or failures are reported. The cycle can then start again.
+
+## Testing Documentation
+Software testing documentation is essential to the speed and efficiency of the testing team. Testing documentation allows developers and specialists to keep each testing artifact stored and cataloged accurately.
+
+### Test Plan
+
+Taking the time to document your test plan properly will ensure that your team completes testing successfully.
+While the test plan focuses on the “what” and the “when” of testing, the test strategy addresses the “how.”
+
+Test plans should include:
+
+A project-specific impact on testing
+The scope of testing
+Quality and acceptance criteria
+Risk management
+The test team, test schedule, and test deliverables
+
+### Test Strategy
+Your test strategy may cover a general introduction, the test strategy, the test strategy outline, and testing types. Ensure your team takes the time to include a test strategy as part of your testing documentation.
+
+The test strategy can include: 
+
+How the team will organize testing
+Which testing types will be in scope to address product risks
+Which test design and execution approaches the team will use for a particular testing type
+
+## Test Case Management
+
+### Test Plan
+- A test plan is a detailed document outlining the scope of testing, required resources, and a complete timeline of testing activities.
+- A test plan can include multiple test suites and test cases.
+
+### Test Suite
+
+- A test suite is a collection of several test cases used to verify specific functionality.  
+- Test suites may also pertain to specific types of testing, such as:
+
+  - Sanity testing: determines if modifications to code have fixed issues without introducing new ones
+  - Smoke testing: verifies if basic functionalities work or not
+  - Regression testing: ensures that changes haven’t broken existing functionality
+  - UI testing: replicates how a user interacts with an application and checks all the system layers
+  - Performance testing: determines how a system performs under a particular workload
+  - API testing: checks the functionality, reliability, performance, and security of APIs
+
+### Test Case
+- A test case comprises the steps used to verify that a specific piece of functionality works correctly and meets the project requirements. 
