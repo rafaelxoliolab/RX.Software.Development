@@ -45,3 +45,36 @@ Once defects are resolved and verified, they are closed. Typically, whoever veri
 ### Reporting
 
 During defect reporting, testing managers prepare and send the defect report to the customer or project managers for feedback on the status of defects. The primary goal of reporting is to gather feedback on the testing progress.
+
+## Types of Non-Functional Testing
+
+### Compatibility
+What are the minimum hardware requirements? What operating systems (including versions) must be supported?
+
+### Performance
+How quick is the response to a user’s actions? How much time does a user wait for a specific operation to happen?
+
+### Capacity
+What is the maximum number of users allowed to use the application simultaneously—for example? Is the user experience compromised at this time?
+
+### Security
+Is every endpoint adequately secured? Does every endpoint require an authentication? Is confidential data, such as the last names of end users, shared in response?
+
+### Reliability and Availability
+How often do critical failures happen to the system? Do users need round-the-clock access to the system?
+
+### Scalability
+Is your system able to handle the growing amount of users by adding extra resources (e.g., servers, storage, memory) to it?
+
+### Maintainability and Manageability
+How long does it take to fix components? How easily can an administrator service the system? 
+How easy is it to improve performance and adapt to a new operating system?
+
+### Usability
+What determines the user’s satisfaction with the product? How easy is it to use the application? 
+Is your site easy to navigate? Does the user understand the primary purpose of the application?
+
+### Accessibility
+Could people with visual impairments or color blindness use the application? Can users with impaired mobility navigate the system with a keyboard?  
+Does the application meet all legal requirements for accessibility?
+
